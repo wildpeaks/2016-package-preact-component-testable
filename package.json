@@ -1,0 +1,34 @@
+{
+	"name": "@wildpeaks/preact-component-testable",
+	"version": "1.0.0",
+	"description": "Testable Preact component",
+	"main": "src/TestableComponent.js",
+	"files": [
+		"src/TestableComponent.js",
+		"test/TestableComponent.tests.js"
+	],
+	"scripts": {
+		"test": "electron-mocha --renderer test/*.js"
+	},
+	"repository": "https://github.com/wildpeaks/package-preact-component-testable",
+	"keywords": [
+		"wildpeaks",
+		"preact",
+		"component"
+	],
+	"author": "Cecile Muller",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/wildpeaks/package-preact-component-testable/issues"
+	},
+	"homepage": "https://github.com/wildpeaks/package-preact-component-testable#readme",
+	"peerDependencies": {
+		"preact": "latest"
+	},
+	"devDependencies": {
+		"electron": "latest",
+		"electron-mocha": "latest",
+		"preact": "latest",
+		"sinon": "latest"
+	}
+}
