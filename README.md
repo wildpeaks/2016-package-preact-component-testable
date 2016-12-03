@@ -1,5 +1,7 @@
 # Testable Component
 
+[![Build Status](https://travis-ci.org/wildpeaks/package-preact-component-testable.svg?branch=master)](https://travis-ci.org/wildpeaks/package-preact-component-testable)
+
 **Preact component that optionally exposes the component instance.**
 
 When a callback is provided in prop `testable`, it is called by `componentDidMount`
