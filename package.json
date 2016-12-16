@@ -1,6 +1,6 @@
 {
 	"name": "@wildpeaks/preact-component-testable",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Testable Preact component",
 	"main": "src/TestableComponent.js",
 	"files": [
@@ -23,12 +23,12 @@
 	},
 	"homepage": "https://github.com/wildpeaks/package-preact-component-testable#readme",
 	"peerDependencies": {
-		"preact": "latest"
+		"preact": "^7.1.0"
 	},
 	"devDependencies": {
-		"electron": "latest",
-		"electron-mocha": "latest",
-		"preact": "latest",
-		"sinon": "latest"
+		"electron": "^1.4.12",
+		"electron-mocha": "^3.3.0",
+		"preact": "^7.1.0",
+		"sinon": "^1.17.6"
 	}
 }
