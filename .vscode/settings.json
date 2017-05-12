@@ -1,0 +1,40 @@
+{
+	// Typescript
+	"typescript.tsdk": "node_modules/typescript/lib",
+
+	// Exclude files and folders
+	"files.exclude": {
+		"LICENSE": true,
+		"*.lnk": true,
+		"*.url": true,
+		"*.zip": true,
+		"*.txt": true,
+		"*.log": true,
+		".DS_Store": true,
+		".editorconfig": true,
+		".gitignore": true,
+		".gitattributes": true,
+		".chrome": true,
+		".vscode": true,
+		"node_modules": true,
+		"logs": true,
+		"www": true
+	},
+	"search.exclude": {
+		"LICENSE": true,
+		"*.lnk": true,
+		"*.url": true,
+		"*.zip": true,
+		"*.txt": true,
+		"*.log": true,
+		".DS_Store": true,
+		".editorconfig": true,
+		".gitignore": true,
+		".gitattributes": true,
+		".chrome": true,
+		".vscode": true,
+		"node_modules": true,
+		"logs": true,
+		"www": true
+	}
+}
