@@ -1,6 +1,5 @@
 'use strict';
 /* eslint-env mocha, browser */
-/* eslint-disable no-invalid-this */
 const {strictEqual, ok} = require('assert');
 const {h, render, Component} = require('preact');
 const {spy} = require('sinon');
@@ -129,7 +128,7 @@ function test_overriden_mount(done){
 }
 
 
-describe('@wildpeaks/preact-component-testable', function(){
+describe('@wildpeaks/preact-component-testable', /* @this */ function(){
 	this.slow(300);
 	this.timeout(400);
 	it(`Component doesn't call testable`, test_not_testable);
