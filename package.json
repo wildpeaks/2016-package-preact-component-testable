@@ -1,41 +1,43 @@
 {
-	"name": "@wildpeaks/preact-component-testable",
-	"version": "2.0.0",
-	"description": "Testable Preact component",
-	"main": "src/TestableComponent.js",
-	"files": [
-		"src/TestableComponent.js",
-		"test/TestableComponent.tests.js"
-	],
-	"eslintConfig": {
-		"extends": "@wildpeaks/commonjs"
-	},
-	"scripts": {
-		"test:eslint": "eslint src",
-		"test:mocha": "electron-mocha --renderer test/*.js",
-		"test": "npm run test:eslint && npm run test:mocha"
-	},
-	"repository": "https://github.com/wildpeaks/package-preact-component-testable",
-	"keywords": [
-		"wildpeaks",
-		"preact",
-		"component"
-	],
-	"author": "Cecile Muller",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/wildpeaks/package-preact-component-testable/issues"
-	},
-	"homepage": "https://github.com/wildpeaks/package-preact-component-testable#readme",
-	"peerDependencies": {
-		"preact": ">=8.1.0"
-	},
-	"devDependencies": {
-		"electron": "1.6.7",
-		"electron-mocha": "3.4.0",
-		"eslint": "3.19.0",
-		"preact": "8.1.0",
-		"sinon": "2.2.0",
-		"@wildpeaks/eslint-config-commonjs": "2.3.0"
-	}
+  "name": "@wildpeaks/preact-component-testable",
+  "version": "2.0.0",
+  "description": "Testable Preact component",
+  "main": "src/TestableComponent.js",
+  "files": [
+    "src/TestableComponent.js",
+    "test/TestableComponent.tests.js"
+  ],
+  "eslintConfig": {
+    "extends": "@wildpeaks/commonjs"
+  },
+  "scripts": {
+    "test:eslint": "eslint src",
+    "test:mocha": "electron-mocha --renderer test/*.js",
+    "test": "npm run test:eslint && npm run test:mocha"
+  },
+  "repository": "https://github.com/wildpeaks/package-preact-component-testable",
+  "keywords": [
+    "wildpeaks",
+    "preact",
+    "component"
+  ],
+  "author": "Cecile Muller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wildpeaks/package-preact-component-testable/issues"
+  },
+  "homepage": "https://github.com/wildpeaks/package-preact-component-testable#readme",
+  "peerDependencies": {
+    "preact": ">=8.1.0"
+  },
+  "devDependencies": {
+    "electron": "1.6.7",
+    "electron-mocha": "3.4.0",
+    "eslint": "3.19.0",
+    "preact": "8.1.0",
+    "sinon": "2.2.0",
+    "typescript": "2.3.2",
+    "@types/mocha": "2.2.41",
+    "@wildpeaks/eslint-config-commonjs": "2.3.0"
+  }
 }
